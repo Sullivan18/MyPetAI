@@ -1,6 +1,6 @@
 # Detecção de Sarna em Cachorros usando Inteligência Artificial
 
-Este é um projeto de detecção de sarna em cachorros utilizando inteligência artificial. O projeto foi desenvolvido com o auxílio do Flask, um framework web em Python.
+Este é um projeto de detecção de sarna em cachorros utilizando inteligência artificial. O projeto consiste em um frontend que interage com uma API em JavaScript, desenvolvida com o framework Express.js, para enviar as requisições para a API em Python responsável por realizar a detecção.
 
 ## Pré-requisitos
 
@@ -60,6 +60,8 @@ Siga as etapas abaixo para configurar o projeto em seu computador:
 
 ## Execução
 
+Importante: não execute o arquivo main.py, pois isso fará com que o sistema não funcione corretamente.
+
 Após a conclusão da instalação e configuração, execute o seguinte comando no terminal ou prompt de comando para iniciar o servidor Flask:
 
 ```
@@ -69,3 +71,4 @@ python function.py
 O servidor Flask será iniciado e estará pronto para receber solicitações.
 
 A seguir, execute o front-end para utilizar esta API.
+
