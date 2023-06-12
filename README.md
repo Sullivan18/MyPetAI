@@ -1,16 +1,43 @@
-Inteligencia artificial para detecção de sarna em cachorros
+Detecção de Sarna em Cachorros usando Inteligência Artificial
 
-Tutorial para executar em qualquer computador
+Este é um projeto de detecção de sarna em cachorros utilizando inteligência artificial. O projeto foi desenvolvido com o auxílio do Flask, um framework web em Python.
+Pré-requisitos
 
-1 - Instalar o flask
-    pip install flask
+    Python 3.x instalado no seu computador.
+    Pacote pip instalado no Python.
+    Conhecimento básico em Python e terminal/prompt de comando.
 
-2 - Crie um projeto .venv
+Instalação
+
+Siga as etapas abaixo para configurar o projeto em seu computador:
+
+    Clone ou baixe este repositório para o seu computador.
+
+    No terminal ou prompt de comando, navegue até o diretório do projeto.
+
+    Crie um ambiente virtual para isolar as dependências do projeto:
     mkdir myproject
     cd myproject
     py -3 -m venv .venv
+    
+    Após criado o projeto venv, mover os arquivos contidos neste repositorio para a pasta .venv
+    
+    Ative o ambiente virtual:
 
-3 - Ativar o ambiente virtual
+    No Windows:
+
     .venv\Scripts\activate
 
-4 - Lembre-se também de alterar o caminho para o arquivo models/dogHealthClassifier.h5 na linha 27 do arquivo function.py
+    No Linux/Mac:
+
+    source .venv/bin/activate
+
+Instale as dependências do projeto:
+
+    pip install -r requirements.txt
+
+Configuração
+
+    Abra o arquivo function.py localizado na pasta src.
+
+    Na linha 27 do arquivo, altere o caminho para o arquivo dogHealthClassifier.h5 para o caminho correto em seu sistema.
