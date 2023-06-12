@@ -54,7 +54,7 @@ Siga as etapas abaixo para configurar o projeto em seu computador:
 
 ## Configuração
 
-1. Abra o arquivo `function.py` localizado na pasta `src`.
+1. Abra o arquivo `function.py` localizado na pasta `.venv`.
 
 2. Na linha 27 do arquivo, altere o caminho para o arquivo `dogHealthClassifier.h5` para o caminho correto em seu sistema.
 
