@@ -1,4 +1,5 @@
-#%%
+## Importante: não execute este arquivo, pois isso fará com que o 
+# sistema não funcione corretamente.
 from PIL import Image
 import hashlib
 import sqlite3
