@@ -1,3 +1,4 @@
+##  ANTES DE EXECUTAR O PROGRAMA, LEIA O README
 import cv2
 import os
 import numpy as np
